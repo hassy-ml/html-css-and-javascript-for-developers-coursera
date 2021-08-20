@@ -1,3 +1,5 @@
+# HaSsyML
+
 ## Welcome
 
 You can use the [editor on GitHub](https://github.com/hassy-ml/html-css-and-javascript-for-developers-coursera/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
