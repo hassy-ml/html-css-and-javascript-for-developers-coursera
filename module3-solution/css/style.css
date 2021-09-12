@@ -1,0 +1,22 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.menu-item {
+    background-color: lightgray;
+    margin:10 10px;
+    padding: 10px;
+}
+.description {    
+    text-align: justify;
+    padding: 10px;
+}
+#navbarSupportedContent {
+    border:1px solid black
+}
+#navbarSupportedContent div a {
+    border-bottom:1px solid black;
+}
