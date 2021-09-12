@@ -1,0 +1,75 @@
+/* Base Styles that apply on all devices*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.menu-container {
+    width: 100%;
+    margin-top: 20px;
+
+}
+.menu-item {    
+    border: 3px solid black;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    float: left;
+    position: relative;
+    background-color: lightgray;
+}
+.title {
+    position: absolute;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px 40px;
+    right: 0px;    
+    font-weight: bold;
+}
+.bg-pink {
+    background-color: pink;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.txt-light {
+    color: white;
+}
+.description {    
+    text-align: justify;
+    bottom: 0px;
+    margin-top: 30px;
+    padding: 10px;
+}
+/* Desktop */
+@media (min-width:992px) {
+    .menu-item {
+        width: 30%;
+    }
+}
+
+/* laptop */
+@media (min-width:768px) and (max-width:991px) {
+    .menu-item {
+        width: 47%;
+    }
+    .menu-item:nth-child(3) {
+        width: 96%;
+    }
+}
+
+/* mobile */
+@media (max-width:767px) {
+    .menu-item {
+        width: 96%;
+    }
+}
